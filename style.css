@@ -43,6 +43,7 @@
    border: 1px solid;
     cursor: pointer;
     background-color: #9400D3;
+    width: 30%;
     /* background-color: #FF1493; */
 }
 
@@ -54,7 +55,11 @@
     color: #9400D3;
 }
 .inp button:hover{
-    background-color: #ff1493;
+    background-color: #9400D3;
+    box-shadow: 0 0 5px #9400D3,
+            0 0 25px #9400D3,
+            0 0 50px #9400D3,
+            0 0 100px #9400D3;
 }
 #ans
 {
