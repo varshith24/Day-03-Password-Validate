@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#fafafa, #faf);
+}
+
+.bod {
+    background-color: #faf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 600px;
+    border-radius: 0.7em;
+    margin-top: -30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 9);
+    /* Modified: Removed the commas between values */
+}
+
+.inp input {
+    flex: 3;
+    padding: 6px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+}
+
+.inp button {
+    padding: 6px;
+    border-radius: 0.3em;
+   border: 1px solid;
+    cursor: pointer;
+    background-color: #9400D3;
+    /* background-color: #FF1493; */
+}
+
+#heading {
+    background: linear-gradient(#fafafa, #faf);
+    margin-bottom: 2em;
+    padding: 0.7em;
+    border-radius: 0.4em;
+    color: #9400D3;
+}
+.inp button:hover{
+    background-color: #ff1493;
+}
+#ans
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #ffffe0;
+    padding: 0.7em;
+    border-radius: 0.3em;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: #9400D3;
+    /* Dark violet */
+    border-radius: 50%;
+}
+
+ul li span {
+    margin-left: 15px;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
