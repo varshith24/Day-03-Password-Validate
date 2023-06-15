@@ -30,20 +30,24 @@
 }
 
 .inp input {
-    flex: 3;
-    padding: 6px;
-    outline: none;
-    border: 1px solid #ccc;
-    border-radius: 0.3em;
+        padding: 6px;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 0.3em;
+        width: 185px;
+        /* Update the width as desired */
+        height: 40px;
+        /* Update the height as desired */
 }
 
 .inp button {
-    padding: 6px;
-    border-radius: 0.3em;
-   border: 1px solid;
-    cursor: pointer;
-    background-color: #9400D3;
-    width: 30%;
+    flex: 1;
+        padding: 10px;
+        border-radius: 0.3em;
+        border: 1px solid;
+        cursor: pointer;
+        background-color: #9400D3;
+        width: 30%;
     /* background-color: #FF1493; */
 }
 
@@ -98,4 +102,10 @@ ul li span {
     color: #333;
     font-weight: bold;
     font-size: 16px;
+}
+@media only screen and (max-width: 800px) {
+    .bod {
+        width: 80%;
+        height: 80%;
+    }
 }
